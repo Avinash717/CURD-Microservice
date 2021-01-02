@@ -1,0 +1,8 @@
+version: "3.4"
+services:
+  django:
+    build:
+      context: .
+    container_name: curd   
+    ports:
+    - 8000:8000
